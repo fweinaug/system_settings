@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - system_settings (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - system_settings (from `.symlinks/plugins/system_settings/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  system_settings:
+    :path: ".symlinks/plugins/system_settings/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  system_settings: 8f5cdbfa72c677fc8d665b863bcc20d393d87e9d
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
