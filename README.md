@@ -1,5 +1,7 @@
 # system_settings
 
+[![pub package](https://img.shields.io/pub/v/system_settings.svg)](https://pub.dev/packages/system_settings)
+
 Flutter plugin to open system and app settings from an iOS and Android app.
 
 On Android, this plugin supports various system setting pages as well as the app info and app notification settings page.
