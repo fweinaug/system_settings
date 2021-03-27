@@ -15,91 +15,91 @@ class MyApp extends StatelessWidget {
           child: ListView(
             padding: EdgeInsets.all(20.0),
             children: <Widget>[
-              RaisedButton(
+              ElevatedButton(
                 child: Text('App info'),
                 onPressed: () => SystemSettings.app(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('App notifications'),
                 onPressed: () => SystemSettings.appNotifications(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Settings'),
                 onPressed: () => SystemSettings.system(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Location'),
                 onPressed: () => SystemSettings.location(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Wi-Fi'),
                 onPressed: () => SystemSettings.wifi(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Bluetooth'),
                 onPressed: () => SystemSettings.bluetooth(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Security'),
                 onPressed: () => SystemSettings.security(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Display'),
                 onPressed: () => SystemSettings.display(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Date & time'),
                 onPressed: () => SystemSettings.date(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Sound'),
                 onPressed: () => SystemSettings.sound(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Apps'),
                 onPressed: () => SystemSettings.apps(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Network & internet'),
                 onPressed: () => SystemSettings.wireless(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Device info'),
                 onPressed: () => SystemSettings.deviceInfo(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Data usage'),
                 onPressed: () => SystemSettings.dataUsage(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Data roaming'),
                 onPressed: () => SystemSettings.dataRoaming(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Locale'),
                 onPressed: () => SystemSettings.locale(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Default apps'),
                 onPressed: () => SystemSettings.defaultApps(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Airplane/offline mode'),
                 onPressed: () => SystemSettings.airplaneMode(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Privacy'),
                 onPressed: () => SystemSettings.privacy(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Accessibility'),
                 onPressed: () => SystemSettings.accessibility(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Internal storage'),
                 onPressed: () => SystemSettings.internalStorage(),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Notification policy / DND'),
                 onPressed: () => SystemSettings.notificationPolicy(),
               ),
