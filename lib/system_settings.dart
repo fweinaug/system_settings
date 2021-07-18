@@ -29,6 +29,10 @@ class SystemSettings {
     return await _channel.invokeMethod('bluetooth');
   }
 
+  static Future<void> nfc() async {
+    return await _channel.invokeMethod('nfc');
+  }
+
   static Future<void> security() async {
     return await _channel.invokeMethod('security');
   }

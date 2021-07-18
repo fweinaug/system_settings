@@ -29,6 +29,7 @@ public class SystemSettingsPlugin(private val registrar: Registrar): MethodCallH
       "location"            -> openSetting(Settings.ACTION_LOCATION_SOURCE_SETTINGS)
       "wifi"                -> openSetting(Settings.ACTION_WIFI_SETTINGS)
       "bluetooth"           -> openSetting(Settings.ACTION_BLUETOOTH_SETTINGS)
+      "nfc"                 -> openSetting(Settings.ACTION_NFC_SETTINGS)
       "security"            -> openSetting(Settings.ACTION_SECURITY_SETTINGS)
       "display"             -> openSetting(Settings.ACTION_DISPLAY_SETTINGS)
       "date"                -> openSetting(Settings.ACTION_DATE_SETTINGS)
