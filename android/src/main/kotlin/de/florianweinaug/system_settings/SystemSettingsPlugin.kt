@@ -45,6 +45,7 @@ public class SystemSettingsPlugin(private val registrar: Registrar): MethodCallH
       "accessibility"       -> openSetting(Settings.ACTION_ACCESSIBILITY_SETTINGS)
       "internal-storage"    -> openSetting(Settings.ACTION_INTERNAL_STORAGE_SETTINGS)
       "notification-policy" -> openSetting(Settings.ACTION_NOTIFICATION_POLICY_ACCESS_SETTINGS)
+      "power-options" -> openSetting(Settings.ACTION_BATTERY_SAVER_SETTINGS)
       else                  -> result.notImplemented()
     }
   }
