@@ -44,6 +44,10 @@ class MyApp extends StatelessWidget {
                 onPressed: () => SystemSettings.bluetooth(),
               ),
               ElevatedButton(
+                child: Text('Nfc'),
+                onPressed: () => SystemSettings.nfc(),
+              ),
+              ElevatedButton(
                 child: Text('Security'),
                 onPressed: () => SystemSettings.security(),
               ),
