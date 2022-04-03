@@ -15,9 +15,9 @@ If not, the settings app will open with the home page. Unfortunately, this is th
 
 Add this to your package's pubspec.yaml file:
 
-```
+```yaml
 dependencies:
-  system_settings: 2.0.0
+  system_settings: 2.1.0
 ```
 
 Next, import the package into your dart code:
@@ -46,5 +46,5 @@ If your problem or idea is not addressed yet, [please open a new issue](https://
 
 ## Copyright & License
 
-Code copyright 2020–2021 Florian Weinaug.
+Code copyright 2020–2022 Florian Weinaug.
 Code released under the [MIT license](https://github.com/fweinaug/system_settings/blob/master/LICENSE).
