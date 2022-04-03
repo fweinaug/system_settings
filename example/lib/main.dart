@@ -16,6 +16,10 @@ class MyApp extends StatelessWidget {
             padding: EdgeInsets.all(20.0),
             children: <Widget>[
               ElevatedButton(
+                child: Text('Power Opton'),
+                onPressed: () => SystemSettings.powerOptions(),
+              ),
+              ElevatedButton(
                 child: Text('App info'),
                 onPressed: () => SystemSettings.app(),
               ),
