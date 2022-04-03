@@ -16,10 +16,6 @@ class MyApp extends StatelessWidget {
             padding: EdgeInsets.all(20.0),
             children: <Widget>[
               ElevatedButton(
-                child: Text('Power Opton'),
-                onPressed: () => SystemSettings.powerOptions(),
-              ),
-              ElevatedButton(
                 child: Text('App info'),
                 onPressed: () => SystemSettings.app(),
               ),
@@ -44,8 +40,12 @@ class MyApp extends StatelessWidget {
                 onPressed: () => SystemSettings.bluetooth(),
               ),
               ElevatedButton(
-                child: Text('Nfc'),
+                child: Text('NFC'),
                 onPressed: () => SystemSettings.nfc(),
+              ),
+              ElevatedButton(
+                child: Text('Power Options'),
+                onPressed: () => SystemSettings.powerOptions(),
               ),
               ElevatedButton(
                 child: Text('Security'),
