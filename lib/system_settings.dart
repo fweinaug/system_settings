@@ -13,6 +13,10 @@ class SystemSettings {
     return await _channel.invokeMethod('app');
   }
 
+  static Future<void> hotsPot() async {
+    return await _channel.invokeMethod('hotspot');
+  }
+
   static Future<void> appNotifications() async {
     return await _channel.invokeMethod('app-notifications');
   }

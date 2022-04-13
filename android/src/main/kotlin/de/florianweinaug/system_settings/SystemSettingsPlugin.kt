@@ -34,6 +34,7 @@ public class SystemSettingsPlugin: MethodCallHandler,FlutterPlugin {
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     when (call.method) {
       "app"                 -> openAppSettings()
+      "hotspot"             -> openHotsPot()
       "app-notifications"   -> openAppNotificationSettings()
       "system"              -> openSystemSettings()
       "location"            -> openSetting(Settings.ACTION_LOCATION_SOURCE_SETTINGS)
@@ -68,6 +69,14 @@ public class SystemSettingsPlugin: MethodCallHandler,FlutterPlugin {
     intent.data = uri
 
     mPluginBinding.applicationContext.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+  }
+
+  private fun openHotsPot(){
+    try {
+      registrar.context().startActivity(Intent().apply{setClassName("com.android.settings", "com.android.settings.TetherSettings")}.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+    } catch (e: Exception) {
+      openSystemSettings()
+    }
   }
 
   private fun openAppNotificationSettings() {
