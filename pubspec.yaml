@@ -1,6 +1,6 @@
 name: system_settings
 description: Flutter plugin to open system and app settings on iOS and Android.
-version: 2.1.0
+version: 2.1.1
 homepage: https://github.com/fweinaug/system_settings
 repository: https://github.com/fweinaug/system_settings
 
