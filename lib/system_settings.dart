@@ -21,6 +21,10 @@ class SystemSettings {
     return await _channel.invokeMethod('system');
   }
 
+  static Future<void> powerUsage() async {
+    return await _channel.invokeMethod('power-usage');
+  }
+
   static Future<void> location() async {
     return await _channel.invokeMethod('location');
   }
