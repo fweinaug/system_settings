@@ -57,6 +57,7 @@ public class SystemSettingsPlugin: MethodCallHandler,FlutterPlugin {
       "internal-storage"    -> openSetting(Settings.ACTION_INTERNAL_STORAGE_SETTINGS)
       "notification-policy" -> openSetting(Settings.ACTION_NOTIFICATION_POLICY_ACCESS_SETTINGS)
       "power-options"       -> openSetting(Settings.ACTION_BATTERY_SAVER_SETTINGS)
+      "power-usage"         -> openSetting(Intent.ACTION_POWER_USAGE_SUMMARY)
       else                  -> result.notImplemented()
     }
   }
